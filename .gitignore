@@ -1,0 +1,28 @@
+# Colab files
+*.ipynb_checkpoints/
+*.pyc
+__pycache__/
+
+# Model files (if too large)
+*.pt
+*.pth
+*.h5
+*.tflite
+!models/.gitkeep
+
+# Dataset
+datasets/
+*.zip
+
+# Environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Outputs
+results/*.png
+!results/.gitkeep
